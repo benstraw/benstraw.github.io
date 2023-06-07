@@ -2,3 +2,10 @@
 title: Fuckin' Home
 ---
 <h1>{{ "Hello JackAss!" | downcase }}</h1>
+
+{% assign date = '2020-04-13T10:20:00Z' %}
+
+- Original date - {{ date }}
+<br/>
+
+- With timeago filter - {{ date | timeago }}
