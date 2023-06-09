@@ -20,6 +20,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 lsi: false
 safe: true
 source: .
@@ -31,4 +32,4 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 gh_pat: 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  
-remote-theme: "minima"
+remote_theme: pages-themes/architect@v0.2.0
