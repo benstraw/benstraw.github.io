@@ -4,18 +4,26 @@ on:
   push:
     branches:
       - main # or master before October 2020
+    paths-ignore:
+      - "docs/**"
 
 jobs:
-  github-pages:
+  build-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v2
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Get cached gems
+        uses: actions/cache@v2
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
-        with:                                # Some relative inputs of your action
+
+      - name: Build and deploy
+        uses: helaili/jekyll-action@v2
+        with:
           token: ${{ secrets.GITHUB_TOKEN }}
