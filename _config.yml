@@ -30,4 +30,5 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-theme: minima
+gh_pat: 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  
+theme: "minima"
