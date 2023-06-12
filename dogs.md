@@ -1,5 +1,6 @@
 ---
 title: Dogs
+layout: categories
 ---
 <h1>My Dogs</h1>
 

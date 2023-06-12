@@ -1,5 +1,6 @@
 ---
 title: About
+layout: single
 ---
 # About page
 

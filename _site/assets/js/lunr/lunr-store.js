@@ -2,30 +2,30 @@ var store = [{
         "title": "Klaus",
         "excerpt":"Klaus was Sabrina’s first dog.  ","categories": [],
         "tags": [],
-        "url": "/dogs/klaus.html",
+        "url": "/dogs/klaus/",
         "teaser": null
       },{
         "title": "Ouzo",
         "excerpt":"Ouzo was my first dog.  ","categories": [],
         "tags": [],
-        "url": "/dogs/ouzo.html",
+        "url": "/dogs/ouzo/",
         "teaser": null
       },{
         "title": "Rhys",
         "excerpt":"Rhys is my current dog.  ","categories": [],
         "tags": [],
-        "url": "/dogs/rhys.html",
+        "url": "/dogs/rhys/",
         "teaser": null
       },{
         "title": "Ryder",
         "excerpt":"Ryder was a special dog.  ","categories": [],
         "tags": [],
-        "url": "/dogs/ryder.html",
+        "url": "/dogs/ryder/",
         "teaser": null
       },{
         "title": "Satchel",
         "excerpt":"Satchel was Nat’s first dog.  ","categories": [],
         "tags": [],
-        "url": "/dogs/satchel.html",
+        "url": "/dogs/satchel/",
         "teaser": null
       },]

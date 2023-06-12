@@ -10,8 +10,11 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Fuckin’ Home - Fuckoff Tardo</title>
-<meta name="description" content="">
+<meta name="description" content="It ain’t great.">
 
+
+  <meta name="author" content="Your Name">
+  
 
 
 <meta property="og:type" content="website">
@@ -21,6 +24,7 @@
 <meta property="og:url" content="http://localhost:4000/">
 
 
+  <meta property="og:description" content="It ain’t great.">
 
 
 
@@ -30,6 +34,11 @@
 
 
 
+
+
+  
+
+  
 
 
 <link rel="canonical" href="http://localhost:4000/">
@@ -42,7 +51,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": null,
+      "name": "Your Name",
       "url": "http://localhost:4000/"
     
   }
@@ -108,9 +117,9 @@
           <span class="site-subtitle">Nuttin to see here</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about.html">About</a>
+              <a href="/about/">About</a>
             </li><li class="masthead__menu-item">
-              <a href="/dogs.html">Dogs</a>
+              <a href="/dogs/">Dogs</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -138,10 +147,16 @@
 <div itemscope itemtype="https://schema.org/Person">
 
   
+    <div class="author__avatar">
+      
+        <img src="https://2.gravatar.com/avatar/7c0b58e6a4cfdb59419f3fefc9fa0232?size=256" alt="Your Name" itemprop="image">
+      
+    </div>
+  
 
   <div class="author__content">
     
-      <h3 class="author__name" itemprop="name"></h3>
+      <h3 class="author__name" itemprop="name">Your Name</h3>
     
     
   </div>
@@ -150,11 +165,38 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Somewhere</span>
+        </li>
+      
 
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/benstraw" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
       
 
       
 
+      
+        <li>
+          <a href="mailto:ben@benstrawbridge.com">
+            <meta itemprop="email" content="ben@benstrawbridge.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
       
 
       
@@ -230,7 +272,7 @@
 With timeago filter - 3 years and 2 months ago
 
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+<h3 class="archive__subtitle">Recent posts</h3>
 
 
 
@@ -256,7 +298,23 @@ With timeago filter - 3 years and 2 months ago
         <div class="page__footer-follow">
   <ul class="social-icons">
     
+      <li><strong>Follow:</strong></li>
+    
 
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
 
     
@@ -265,7 +323,7 @@ With timeago filter - 3 years and 2 months ago
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Fuckoff Tardo. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
