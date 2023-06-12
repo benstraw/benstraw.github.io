@@ -1,5 +1,4 @@
 ---
-layout: dog
 name: Klaus
 dob: April, 1996
 ---

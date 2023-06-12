@@ -1,6 +1,10 @@
-- name: Home
-  link: /
-- name: About 
-  link: /about.html
-- name: Dogs 
-  link: /dogs.html
+# main links
+main:
+  - title: "About"
+    url: /about.html
+  - title: "Dogs"
+    url: /dogs.html
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

@@ -5,6 +5,7 @@ vendor/
 
 ### Build
 
+Gemfile.lock
 .jekyll-cache/
 .jekyll-metadata
 build/

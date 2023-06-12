@@ -6,7 +6,7 @@ defaults:
       path: ""
       type: "dogs"
     values:
-      layout: "dog"
+      layout: "default"
   - scope:
       path: ""
       type: "posts"
@@ -21,6 +21,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-include-cache
 lsi: false
 safe: true
 source: .
@@ -32,3 +33,9 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+title: "Fuckoff Tardo"
+subtitle: "Nuttin to see here"
+url: "https://gh.benstrawbridge.com"
+repository: "benstraw/benstraw.github.io"
+breadcrumbs: true
