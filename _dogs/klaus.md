@@ -1,4 +1,5 @@
 ---
+title: Klaus Dog!
 name: Klaus
 dob: April, 1996
 ---

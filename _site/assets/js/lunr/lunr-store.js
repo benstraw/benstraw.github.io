@@ -1,5 +1,5 @@
 var store = [{
-        "title": "Klaus",
+        "title": "Klaus Dog!",
         "excerpt":"Klaus was Sabrina’s first dog.  ","categories": [],
         "tags": [],
         "url": "/dogs/klaus/",
@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Rhys",
-        "excerpt":"Rhys is my current dog.  ","categories": [],
+        "excerpt":"Rhys is my crazy dog.     ","categories": [],
         "tags": [],
         "url": "/dogs/rhys/",
         "teaser": null
@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Satchel",
-        "excerpt":"Satchel was Nat’s first dog.  ","categories": [],
+        "excerpt":"Satchel was Nat’s first dog. test  ","categories": [],
         "tags": [],
         "url": "/dogs/satchel/",
         "teaser": null

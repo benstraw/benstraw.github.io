@@ -108,7 +108,7 @@ author:
   avatar           : https://2.gravatar.com/avatar/7c0b58e6a4cfdb59419f3fefc9fa0232?size=256 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : # "I am an **amazing** person."
   location         : "Somewhere"
-  email            : "ben@benstrawbridge.com"
+  email            : # "ben@benstrawbridge.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -296,6 +296,10 @@ defaults:
       type: "dogs"
     values:
       layout: "category"
+  - scope:
+      path: "assets/imgages"
+    values:
+      image: true
 
 # Collections
 collections:
