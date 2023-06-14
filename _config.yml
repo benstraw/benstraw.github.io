@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Fuckoff Tardo"
 title_separator          : "-"
 subtitle                 : "Nuttin to see here" # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "benstraw"
 description              : "It ain't great."
 url                      : "https://gh.benstrawbridge.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "benstraw"
   avatar           : https://2.gravatar.com/avatar/7c0b58e6a4cfdb59419f3fefc9fa0232?size=256 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : # "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "internet"
   email            : # "ben@benstrawbridge.com"
   links:
     - label: "Email"
@@ -118,7 +118,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/benstraw"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://twitter.com/benstraw"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -291,11 +291,22 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _dogs
   - scope:
       path: ""
       type: "dogs"
     values:
       layout: "category"
+      author_profile: true
+  
+  # images
   - scope:
       path: "assets/imgages"
     values:

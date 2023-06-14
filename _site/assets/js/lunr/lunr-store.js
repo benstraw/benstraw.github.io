@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Rhys",
-        "excerpt":"Rhys is my crazy dog.     ","categories": [],
+        "excerpt":"                                                                                                                                                                                                                                                                                      Rhys is my crazy dog       ","categories": [],
         "tags": [],
         "url": "/dogs/rhys/",
         "teaser": null
@@ -28,4 +28,10 @@ var store = [{
         "tags": [],
         "url": "/dogs/satchel/",
         "teaser": null
-      },]
+      },{
+        "title": "This is a single post",
+        "excerpt":"Welcome   Hello world, this is my first Jekyll blog post.  ","categories": ["general"],
+        "tags": ["junk"],
+        "url": "/general/first-posting/",
+        "teaser": null
+      }]
