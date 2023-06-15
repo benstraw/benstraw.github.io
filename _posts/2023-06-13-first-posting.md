@@ -1,7 +1,7 @@
 ---
 layout: single 
 title:  "This is a single post"
-category: "general"
+category: general
 tag: junk
 ---
 

@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Satchel",
-        "excerpt":"Satchel was Nat’s first dog. test  ","categories": [],
+        "excerpt":"Satchel and Ouzo were litter mates.  ","categories": [],
         "tags": [],
         "url": "/dogs/satchel/",
         "teaser": null
