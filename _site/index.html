@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Fuckin’ Home - Github pages project site</title>
+<!-- begin _includes/seo.html --><title>Github pages project site</title>
 <meta name="description" content="It ain’t great.">
 
 
@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Github pages project site">
-<meta property="og:title" content="Fuckin’ Home">
+<meta property="og:title" content="Github pages project site">
 <meta property="og:url" content="http://localhost:4000/">
 
 
@@ -121,6 +121,11 @@
             </li><li class="masthead__menu-item">
               <a href="/projects/">Projects</a>
             </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -256,15 +261,12 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Fuckin' Home</h1>
+      <h1 id="page-title" class="page__title"></h1>
     
     <h1>hello jackass!</h1>
 
 
-
-- Original date - 2020-04-13T10:20:00Z
-<br/>
-With timeago filter - 3 years and 2 months ago
+This site has been live since 2 weeks and 3 days ago
 
 
 <h3 class="archive__subtitle">Recent posts</h3>
@@ -273,6 +275,46 @@ With timeago filter - 3 years and 2 months ago
 
 
 <div class="entries-list">
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tips/sorted-loop-jekyll/" rel="permalink">How to sort a collection in Jekyll with Liquid templates
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">In case you wonder how to sort your collection in jekyll you can do something like this:
+</p>
+  </article>
+</div>
+
   
     
 
@@ -324,6 +366,17 @@ With timeago filter - 3 years and 2 months ago
     </div>
 
     
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
 
     <div id="footer" class="page__footer">
       <footer>
@@ -370,6 +423,10 @@ With timeago filter - 3 years and 2 months ago
 
 
 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 

@@ -1,12 +1,8 @@
 ---
-title: Fuckin' Home
 layout: home
 author_profile: true
 ---
 <h1>{{ "Hello JackAss!" | downcase }}</h1>
 
-{% assign date = '2020-04-13T10:20:00Z' %}
-
-- Original date - {{ date }}
-<br/>
-With timeago filter - {{ date | timeago }}
+{% assign launch_date = '2023-05-29T10:20:00Z' %}
+This site has been live since {{ launch_date | timeago }}

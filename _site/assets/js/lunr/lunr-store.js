@@ -30,8 +30,14 @@ var store = [{
         "teaser": null
       },{
         "title": "This is a single post",
-        "excerpt":"Welcome   Hello world, this is my first Jekyll blog post.  ","categories": ["general"],
+        "excerpt":"Welcome   Hello world, this is my first Jekyll post.  ","categories": ["general"],
         "tags": ["junk"],
         "url": "/general/first-posting/",
+        "teaser": null
+      },{
+        "title": "How to sort a collection in Jekyll with Liquid templates",
+        "excerpt":"In case you wonder how to sort your collection in jekyll you can do something like this:     ","categories": ["tips"],
+        "tags": ["jekyll"],
+        "url": "/tips/sorted-loop-jekyll/",
         "teaser": null
       }]
