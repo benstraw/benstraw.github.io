@@ -9,3 +9,6 @@ Gemfile.lock
 .jekyll-cache/
 .jekyll-metadata
 build/
+
+### OSX
+.DS_Store
