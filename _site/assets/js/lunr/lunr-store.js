@@ -8,7 +8,7 @@ var store = [{
         "title": "Ouzo",
         "excerpt":"Ouzo was my first dog.  ","categories": [],
         "tags": [],
-        "url": "/dogs/ouzo/",
+        "url": "/projects/dog-gallery/ouzo/",
         "teaser": null
       },{
         "title": "Rhys",

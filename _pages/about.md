@@ -2,6 +2,7 @@
 title: About
 layout: single
 permalink: /about/
+hidden: true
 ---
 
 My github pages site for messing around with code and learning projects.
