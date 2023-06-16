@@ -40,4 +40,10 @@ var store = [{
         "tags": ["jekyll"],
         "url": "/tips/sorted-loop-jekyll/",
         "teaser": null
+      },{
+        "title": "Excellent Favicons",
+        "excerpt":"To create excellent favicons that work everywhere you expect them to work just the way they are supposed to you can save yourself a lot of time by using RealFaviconGenerator.   It generates a nice package with all the variety of icons as well as a nice setup page.  ","categories": ["tips"],
+        "tags": [],
+        "url": "/tips/excellent-favicons/",
+        "teaser": null
       }]
