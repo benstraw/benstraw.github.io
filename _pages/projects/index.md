@@ -6,4 +6,5 @@ permalink: /projects/
 
 hi there  
 
-- [dog photo gallery](/projects/dog-gallery)  
+- [dog photo gallery](/projects/dog-gallery)
+- [static site generator research](/projects/ssg)

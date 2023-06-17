@@ -1,7 +1,7 @@
 ---
 title: Static Site Generators (SSG) 
 layout: single 
-permalink: /projects/
+permalink: /projects/ssg
 ---
 
 A static site generator is the technology used to generate the flat html files for this website.  They have become more popular in recent years due to their scalability and ease of set up.  This site is made with [Jekyll](https://jekyllrb.com/). I choose Jekyll for it's intimate connection with GitHub (it's creator [Tom Preston-Werner](https://en.wikipedia.org/wiki/Tom_Preston-Werner) was also one of the founders of GitHub), and the ease of getting it setup on the platform.  I've since done more research on SSG's and am considering migration to another platform.
